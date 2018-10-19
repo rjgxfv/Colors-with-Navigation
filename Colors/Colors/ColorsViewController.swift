@@ -15,7 +15,8 @@ class ColorsViewController: UIViewController, UITableViewDelegate, UITableViewDa
                   Color(name: "Yellow",UIColor:UIColor.yellow),
                   Color(name: "Green",UIColor:UIColor.green),
                   Color(name: "Blue",UIColor:UIColor.blue),
-                  Color(name: "Purple",UIColor:UIColor.purple),]
+                  Color(name: "Purple",UIColor:UIColor.purple),
+                  Color(name:"Brown",UIColor:UIColor.brown)]
     
     
     @IBOutlet weak var ColorsTableView: UITableView!
