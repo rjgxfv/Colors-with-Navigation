@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Colors.xcodeproj">
+      location = "self:/Users/robertgraman/Desktop/Colors/Colors/Colors with Navigation.xcodeproj">
    </FileRef>
 </Workspace>

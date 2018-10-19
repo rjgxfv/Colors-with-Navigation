@@ -13,10 +13,11 @@
 		1817868F215EC68C00F0EB9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1817868D215EC68C00F0EB9C /* LaunchScreen.storyboard */; };
 		18178697215EC6F400F0EB9C /* ColorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18178696215EC6F400F0EB9C /* ColorsViewController.swift */; };
 		EF6216AD217A38DD007C5D04 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6216AC217A38DD007C5D04 /* Color.swift */; };
+		EF6216AF217A3CB9007C5D04 /* ColorDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6216AE217A3CB9007C5D04 /* ColorDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		18178681215EC66200F0EB9C /* Colors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Colors.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18178681215EC66200F0EB9C /* Colors with Navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Colors with Navigation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18178684215EC66200F0EB9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18178689215EC66300F0EB9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1817868B215EC68C00F0EB9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -24,6 +25,7 @@
 		18178690215EC68C00F0EB9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18178696215EC6F400F0EB9C /* ColorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsViewController.swift; sourceTree = "<group>"; };
 		EF6216AC217A38DD007C5D04 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		EF6216AE217A3CB9007C5D04 /* ColorDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +50,7 @@
 		18178682215EC66200F0EB9C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				18178681215EC66200F0EB9C /* Colors.app */,
+				18178681215EC66200F0EB9C /* Colors with Navigation.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,6 +65,7 @@
 				18178690215EC68C00F0EB9C /* Info.plist */,
 				18178696215EC6F400F0EB9C /* ColorsViewController.swift */,
 				EF6216AC217A38DD007C5D04 /* Color.swift */,
+				EF6216AE217A3CB9007C5D04 /* ColorDetailViewController.swift */,
 			);
 			path = Colors;
 			sourceTree = "<group>";
@@ -70,9 +73,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		18178680215EC66200F0EB9C /* Colors */ = {
+		18178680215EC66200F0EB9C /* Colors with Navigation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18178693215EC68C00F0EB9C /* Build configuration list for PBXNativeTarget "Colors" */;
+			buildConfigurationList = 18178693215EC68C00F0EB9C /* Build configuration list for PBXNativeTarget "Colors with Navigation" */;
 			buildPhases = (
 				1817867D215EC66200F0EB9C /* Sources */,
 				1817867E215EC66200F0EB9C /* Frameworks */,
@@ -82,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = Colors;
+			name = "Colors with Navigation";
 			productName = Colors;
-			productReference = 18178681215EC66200F0EB9C /* Colors.app */;
+			productReference = 18178681215EC66200F0EB9C /* Colors with Navigation.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1817867C215EC66100F0EB9C /* Build configuration list for PBXProject "Colors" */;
+			buildConfigurationList = 1817867C215EC66100F0EB9C /* Build configuration list for PBXProject "Colors with Navigation" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				18178680215EC66200F0EB9C /* Colors */,
+				18178680215EC66200F0EB9C /* Colors with Navigation */,
 			);
 		};
 /* End PBXProject section */
@@ -141,6 +144,7 @@
 				18178697215EC6F400F0EB9C /* ColorsViewController.swift in Sources */,
 				18178685215EC66200F0EB9C /* AppDelegate.swift in Sources */,
 				EF6216AD217A38DD007C5D04 /* Color.swift in Sources */,
+				EF6216AF217A3CB9007C5D04 /* ColorDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,7 +323,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1817867C215EC66100F0EB9C /* Build configuration list for PBXProject "Colors" */ = {
+		1817867C215EC66100F0EB9C /* Build configuration list for PBXProject "Colors with Navigation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18178691215EC68C00F0EB9C /* Debug */,
@@ -328,7 +332,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18178693215EC68C00F0EB9C /* Build configuration list for PBXNativeTarget "Colors" */ = {
+		18178693215EC68C00F0EB9C /* Build configuration list for PBXNativeTarget "Colors with Navigation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18178694215EC68C00F0EB9C /* Debug */,
